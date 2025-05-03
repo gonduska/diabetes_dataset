@@ -6,29 +6,18 @@ The aim is to extract real-world, actionable insights and showcase technical ski
 
 ## Objectives
 
-This project aims to answer the following real-world healthcare analysis questions:
+- What are the most common primary diagnoses among hospitalised diabetic patients?
+- How does the length of hospital stay vary by age, gender, and diagnosis?
+- How often do certain diagnoses appear together within a single admission?
+- What demographic groups are most represented in the data?
+- Which conditions are associated with longer hospital stays?
+- What insights can be drawn from the overlap between diabetes and other chronic conditions?
 
-- Clean and prepare the dataset for analysis, ensuring no corrupt or ambiguous data impacts results
+Additionally, this project demonstrates how to:
+- Clean messy real-world medical data using SQL
+- Translate ICD-9 diagnosis codes into meaningful insights
+- Build clear, visual stories using Tableau dashboards
 
-- How long do patients typically stay in hospital, and how does this vary by age, gender, or condition?
-
-- What are the most common diagnoses among hospitalised diabetic patients?
-
-- Which combinations of diagnoses frequently occur together?
-  
-- Identify the most frequent diagnoses and group them using ICD-9 categories
-
-- Analyse co-diagnosis patterns using diag_1, diag_2, and diag_3 columns
-
-- How does the demographic breakdown (age, race, gender) relate to diagnosis patterns?
-
-- Are there notable trends or concerns in readmission rates or chronic condition clustering?
-
-- How can we segment patients into meaningful types for further targeted healthcare interventions?
-
-- Explore patient demographics and hospital usage trends (age, gender, race, stay duration)
-
-- Lay groundwork for deeper exploration into medication usage patterns and patient segmentation
 
 ## Dataset Introduction and Description
 
