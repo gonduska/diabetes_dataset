@@ -128,3 +128,27 @@ While some conditions lead to relatively short admissions (for example respirato
 
 
 This data shows that conditions like pneumonia, heart failure, and serious circulatory disorders result in longer admissions, likely due to the need for more intensive care and recovery time. Conversely, more general or symptomatic diagnoses, such as chest symptoms, tend to lead to shorter stays.
+
+To identify recurring diagnosis patterns, we grouped hospital admissions by the three diagnosis fields: diag_1, diag_2, and diag_3. 
+
+Only values with a valid ICD-9 length (3+ characters) were included, ensuring data quality and consistency.
+
+This analysis highlights common co-existing health conditions among diabetic patients. These combinations often reflect real-world chronic illness clusters, for example, diabetes frequently occurring with heart disease and hypertension.
+
+| diag_1 | diag_2 | diag_3 | Frequency |
+|--------|--------|--------|-----------|
+| 414    | 411    | 250    | 350       |
+| 414    | 411    | 401    | 271       |
+| 786    | 401    | 250    | 247       |
+| 410    | 414    | 250    | 235       |
+| 786    | 250    | 401    | 231       |
+| 715    | 401    | 250    | 208       |
+| 414    | 401    | 250    | 197       |
+| 715    | 250    | 401    | 188       |
+| 414    | 250    | 401    | 187       |
+| 414    | 411    | 428    | 172       |
+
+- 414, 401, and 250 appear consistently, representing chronic ischemic heart disease, hypertension, and diabetes.
+- These results reinforce the strong link between cardiovascular conditions and diabetes.
+- This insight is valuable for targeting preventative care strategies
+
