@@ -95,17 +95,19 @@ We grouped and counted these codes to determine frequency and ranked them using 
 
 Since raw ICD-9 codes are not human-readable, we manually mapped the top 10 most frequent codes to their corresponding clinical descriptions using a CASE statement.
 
-Rank | ICD-9 Code | Diagnosis Description | Total Cases
-1 | 428 | Heart failure | 6,862
-2 | 414 | Other forms of chronic ischemic heart disease | 6,580
-3 | 786 | Symptoms involving respiratory system and other chest symptoms | 4,016
-4 | 410 | Acute myocardial infarction | 3,614
-5 | 486 | Pneumonia, organism unspecified | 3,508
-6 | 427 | Cardiac dysrhythmias | 2,766
-7 | 491 | Chronic bronchitis | 2,275
-8 | 715 | Osteoarthrosis and allied disorders | 2,151
-9 | 682 | Other cellulitis and abscess | 2,042
-10 | 434 | Occlusion of cerebral arteries | 2,028
+| Rank | ICD-9 Code | Diagnosis Description                                      | Total Cases |
+|------|------------|-------------------------------------------------------------|-------------|
+| 1    | 428        | Heart failure                                               | 6,862       |
+| 2    | 414        | Other forms of chronic ischemic heart disease              | 6,580       |
+| 3    | 786        | Symptoms involving respiratory system and other chest symptoms | 4,016   |
+| 4    | 410        | Acute myocardial infarction                                 | 3,614       |
+| 5    | 486        | Pneumonia, organism unspecified                             | 3,508       |
+| 6    | 427        | Cardiac dysrhythmias                                        | 2,766       |
+| 7    | 491        | Chronic bronchitis                                          | 2,275       |
+| 8    | 715        | Osteoarthrosis and allied disorders                         | 2,151       |
+| 9    | 682        | Other cellulitis and abscess                                | 2,042       |
+| 10   | 434        | Occlusion of cerebral arteries                              | 2,028       |
+
 
 These results suggest that many diabetic admissions are associated with cardiovascular and respiratory conditions. Heart failure alone accounts for nearly 7,000 admissions, followed closely by chronic heart disease and various respiratory issues. This confirms the significant overlap between diabetes and other chronic linked health conditions.
 
@@ -113,12 +115,14 @@ To better understand the healthcare burden associated with different conditions,
 
 While some conditions lead to relatively short admissions (for example respiratory symptoms: 2.12 days), others are associated with significantly longer stays.
 
-Diagnosis | Avg. Hospital Stay (days)
-Pneumonia | 5.04
-Acute myocardial infarction | 4.87
-Other cellulitis and abscess | 4.81
-Occlusion of cerebral arteries | 4.76
-Heart failure | 4.57
+| Diagnosis                        | Avg. Hospital Stay (days) |
+|----------------------------------|----------------------------|
+| Pneumonia                        | 5.04                       |
+| Acute myocardial infarction      | 4.87                       |
+| Other cellulitis and abscess     | 4.81                       |
+| Occlusion of cerebral arteries   | 4.76                       |
+| Heart failure                    | 4.57                       |
+
 
 🔗 [SQL code for Q2](./sql/question_2_diagnosis_avg_stay.sql)
 
