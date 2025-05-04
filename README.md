@@ -170,7 +170,7 @@ Patients were grouped by their previous outpatient, emergency, and inpatient vis
 
 We found:
 
-### Readmission Rate by Prior Visit History
+Readmission Rate by Prior Visit History
 
 | Visit History         | Admissions | <30 Readmissions | Rate (%) |
 |-----------------------|------------|------------------|----------|
@@ -191,7 +191,7 @@ By segmenting patients by age, diagnosis type, and prior healthcare usage, we su
 
 These findings don’t just describe the data, they point directly to real-world opportunities:
 
--vPrioritise older patients (60+) for post-discharge planning.
+- Prioritise older patients (60+) for post-discharge planning.
 
 - Focus interventions on patients with cardiovascular and respiratory comorbidities.
 
