@@ -137,7 +137,64 @@ This analysis highlights common co-existing health conditions among diabetic pat
 | 414    | 250    | 401    | 187       |
 | 414    | 411    | 428    | 172       |
 
-- 414, 401, and 250 appear consistently, representing chronic ischemic heart disease, hypertension, and diabetes.
-- These results reinforce the strong link between cardiovascular conditions and diabetes.
-- This insight is valuable for targeting preventative care strategies
 
+The most frequent triads consistently included diabetes (250), hypertension (401), and ischemic heart disease (414), confirming the strong overlap between metabolic and cardiovascular conditions. 
+
+These combinations alone appeared in over 12% of all admissions, underscoring that diabetes rarely occurs in isolation and typically presents as part of a broader chronic illness cluster.
+
+## Executive Summary: Drivers of 30-Day Readmissions in Diabetic Patients
+
+In this section of the analysis, we examined over 100,000 hospital admissions for diabetic patients to uncover key patterns associated with 30-day readmissions. 
+
+The goal was to identify high-risk segments for targeted intervention.
+
+### 1. Older Patients Are Significantly More Likely to Be Readmitted
+Patients aged 60–80 accounted for over 7,200 readmissions which is nearly 50% of all <30-day readmissions. 
+
+The highest readmission volume was observed in the 70–80 age group (3,069), followed by 60–70 (2,502). Younger groups had drastically lower counts.
+
+### 2. Cardiac and Respiratory Diagnoses Drive the Highest Readmissions
+
+Among diagnosis categories:
+
+- Circulatory conditions (e.g., heart-related) caused the most readmissions: 3,485 cases
+
+- Respiratory diagnoses accounted for 1,403
+
+- Diabetes-specific cases had 1,137 readmissions — surprisingly lower
+
+While diabetes is the central condition, heart and lung issues, are the primary triggers for rapid return.
+
+### 3. Prior Healthcare Usage Strongly Predicts Readmission Risk
+Patients were grouped by their previous outpatient, emergency, and inpatient visit counts. 
+
+We found:
+
+### Readmission Rate by Prior Visit History
+
+| Visit History         | Admissions | <30 Readmissions | Rate (%) |
+|-----------------------|------------|------------------|----------|
+| Frequent past visits  | 15,935     | 3,016            | 18.9%    |
+| Some prior visits     | 30,003     | 3,777            | 12.6%    |
+| No prior visits       | 55,828     | 4,564            | 8.2%     |
+
+
+Not suprisingly, patients with more prior healthcare interactions are more than twice as likely to be readmitted. They should be flagged early for follow-up care and case management. 
+
+🔗 [SQL code for Q3](./sql/question_3_readmission_30_grouped.sql)
+
+## Final thoughts
+
+This project demonstrates how structured data, even when messy and inconsistent, can be transformed into actionable medical insight with careful cleaning, precise SQL logic, and thoughtful visualisation.
+
+By segmenting patients by age, diagnosis type, and prior healthcare usage, we surfaced clear, statistically meaningful patterns that can guide clinical decisions and hospital resource planning. 
+
+These findings don’t just describe the data, they point directly to real-world opportunities:
+
+-vPrioritise older patients (60+) for post-discharge planning.
+
+- Focus interventions on patients with cardiovascular and respiratory comorbidities.
+
+- Monitor patients with multiple prior interactions closely, as they represent a high-risk, high-cost group.
+
+From raw EHR-like tables to structured insights, this project highlights not just technical competency in SQL and Tableau, but also the ability to tell a clear data story that decision-makers can use.
