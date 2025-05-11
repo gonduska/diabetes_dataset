@@ -1,4 +1,4 @@
-# Readmission Risk in Diabetic Patients: A 10-Year Hospital Data Analysis (1999–2008
+# Readmission Risk in Diabetic Patients: A 10-Year Hospital Data Analysis (1999–2008)
 
 ## Project Summary
 This project explores the Diabetes Hospital Readmission dataset using SQL for analysis and Tableau for visualisation. 
